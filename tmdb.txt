@@ -1,0 +1,4 @@
+clé : a177bb80c59989ba946d472a3c8c5fce
+exemple de demande d'api : https://api.themoviedb.org/3/movie/550?api_key=a177bb80c59989ba946d472a3c8c5fce
+
+v4 auth : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMTc3YmI4MGM1OTk4OWJhOTQ2ZDQ3MmEzYzhjNWZjZSIsInN1YiI6IjYwOTAwMWJlNjI5YjJjMDA3NzA2YjczNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LOaDCzXUmqdlXs-j6zBME6w6slEKIgGB5lFK4_1UGSY
