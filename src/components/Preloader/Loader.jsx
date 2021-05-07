@@ -1,4 +1,4 @@
-const Preloader = () => {
+const Loader = () => {
     return (
         <div className="progress">
             <div className="indeterminate"></div>
@@ -6,4 +6,4 @@ const Preloader = () => {
     );
 }
 
-export default Preloader;
+export default Loader;
