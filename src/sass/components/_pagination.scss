@@ -1,0 +1,47 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.pagination-container {
+    width: 300px;
+    margin: auto;
+    // background-color: rgb(109, 85, 85);
+}
+.activePage {
+    background-color: #0026ff;
+    color: white;
+    border-radius: 20px;
+}
+
+.detail-pagination {
+    display: block;
+    text-align: center;
+}
+.plgLink {
+    display: block;
+    text-decoration: none;
+    width: 30px;
+    height: 20px;
+    color: #060b26;
+    cursor: pointer;
+}
+.page {
+    // text-align: center;
+    margin: 0 0.7rem;
+}
+.pagination {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    // background-color: #ffff;
+    // border: 1px solid black;
+    color: #060b26;
+    border-radius: 20px;
+    text-align: center;
+}
+.prev {
+    margin-right: 1rem;
+}
+.next {
+    margin-left: 1rem;
+}

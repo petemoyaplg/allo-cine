@@ -1,0 +1,95 @@
+.card {
+    @extend .card;
+    position: relative;
+    width: 13rem;
+    height: 22rem;
+    box-shadow: 5px 10px 20px 1px rgba($color: #000000, $alpha: 0.253);
+    margin: 1rem 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+
+    .card-dark-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background: black;
+        opacity: 0;
+    }
+    &:hover {
+        .card-dark-box {
+            opacity: 0.4;
+        }
+    }
+    & a {
+        text-decoration: none;
+        color: #060b26;
+    }
+}
+
+.card:hover {
+    transform: scale(1.06);
+}
+
+.card-body {
+    padding: 3rem 0;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-img {
+    width: 100%;
+    height: 80%;
+    border-bottom: 1px solid #cccfdd;
+}
+
+.card-img-top {
+    @extend .card-img-top;
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    @extend .card-body;
+    // border: 1px solid black;
+    margin-top: -20%;
+    height: 1rem;
+}
+
+.card-title {
+    @extend .card-title;
+    color: #060b26;
+    font-size: 0.75rem;
+    font-weight: bolder;
+}
+
+.card-body div {
+    display: flex;
+    justify-content: space-around;
+    color: #060b26;
+    & p {
+        font-size: 0.7rem;
+    }
+    & p:nth-child(2) {
+        color: rgb(255, 255, 255);
+        background-color: #060b26;
+        width: 12%;
+        height: 12%;
+        border-radius: 100%;
+    }
+    .bad-vote {
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0) !important;
+    }
+}
+
+.img-no-found {
+    font-weight: bolder;
+    transform: translateY(10rem);
+}

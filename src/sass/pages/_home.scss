@@ -1,0 +1,22 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.div-home {
+    padding-top: 7rem;
+    margin: auto;
+    width: 90%;
+}
+
+.item-title {
+    cursor: pointer;
+    background-color: #b9bdcf;
+    border-radius: 5px;
+    height: 3rem;
+    padding-left: 1rem;
+}
+.hidden {
+    display: none;
+}
+.active {
+    display: block;
+}

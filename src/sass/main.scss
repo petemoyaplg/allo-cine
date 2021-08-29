@@ -1,0 +1,19 @@
+@import "vendor/boostrap/bootstrap.scss";
+@import "components/loader";
+@import "components/card";
+@import "components/pagination";
+@import "components/navbar";
+@import "components/form";
+@import "components/genre";
+@import "components/progress";
+@import "pages/home";
+@import "pages/footer";
+@import "pages/mediaPage";
+@import "pages/actors";
+@import "pages/search";
+@import "pages/detail";
+
+body {
+    background-color: #cccfdd;
+    font-family: "Montserrat", sans-serif;
+}

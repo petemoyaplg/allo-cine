@@ -1,0 +1,26 @@
+.row-fluid {
+    margin-left: 1rem;
+    // border: 1px solid black;
+}
+.genre {
+    margin-top: 2.5rem;
+}
+.row-fluid p {
+    // text-align: center;
+    padding-left: 1.3rem;
+    cursor: pointer;
+    background-color: #b9bdcf;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    height: 30px;
+}
+.genres-list li,
+.years-list li {
+    list-style: none;
+}
+.genres-list li a,
+.years-list li a {
+    text-decoration: none;
+    color: #060b26;
+}
