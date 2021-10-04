@@ -16,7 +16,7 @@ const Home = () => {
 
     return (
         <div className="div-home">
-            <Banner />
+            <Banner urlMovies={MoviesPopular} urlTv={TvPopular} />
             <h2 className="item-title"
                 onClick={() => { setAreFirstListMediaVisible( !areFirstListMediaVisible ) }}>
                 {setIcon( areFirstListMediaVisible )}

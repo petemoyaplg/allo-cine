@@ -11063,9 +11063,16 @@ h1, .h1 {
 }
 
 .footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #060b26;
+  border-top: 10px solid rgba(0, 0, 255, 0.2);
   color: white;
   text-align: center;
+}
+.footer span {
+  font-size: 0.8rem;
+  display: block;
 }
 
 .media {

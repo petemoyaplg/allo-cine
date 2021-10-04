@@ -73,7 +73,7 @@ const CardMedia = ( { media } ) => {
                 <h3 className="card-title" ><Link to={getPath()} onClick={showDetail}>{title || name}</Link></h3>
                 <div>
                     <p>{release_date || first_air_date}</p>
-                    <p className={vote_average < 5 ? 'bad-vote' : ''}>{vote_average}</p>
+                    <p className={vote_average < 5 ? 'bad-vote' : ''}>{Math.round( vote_average, 2 )}</p>
                 </div>
             </div>
         </div>
